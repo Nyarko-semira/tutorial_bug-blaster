@@ -8,7 +8,8 @@ body {
 }
 
 h1 {
-    margin: 50px;;
+    margin: 20 0 50px 0;
+    font-size: 22px;
 }
 
 
@@ -24,7 +25,10 @@ label {
 
 .container {
     max-width: 720px;
+    padding: 0 10px;
     margin: 0 auto;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 20px;
 }
 
 
@@ -80,6 +84,7 @@ label {
 }
 
 .button {
+   
     background-color: #007bff;
     color: white;
     border: none;
@@ -87,6 +92,12 @@ label {
     border-radius: 5px;
     cursor: pointer;
     margin: 10px;
+   
+}
+
+.parent-btn{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button:hover {
@@ -117,7 +128,6 @@ label {
 .results {
     margin-top: 50px;
 }
-
 
 
 select {
